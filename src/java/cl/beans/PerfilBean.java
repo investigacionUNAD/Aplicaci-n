@@ -9,14 +9,8 @@ import cl.mybatis.myBatisUtil;
 import cl.mybatis.pojos.Perfil;
 import java.io.Serializable;
 import java.util.List;
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-import javax.faces.bean.ViewScoped;
-import javax.faces.context.FacesContext;
-import javax.faces.render.FacesRenderer;
 import org.apache.ibatis.session.SqlSession;
 
 /**

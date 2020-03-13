@@ -1,31 +1,12 @@
 package cl.beans;
 
-import cl.mybatis.myBatisUtil;
-import cl.mybatis.pojos.Agenda;
-import java.util.List;
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
-import org.apache.ibatis.session.SqlSession;
-
-import javax.annotation.PostConstruct;
-import javax.faces.bean.ManagedBean;
-import java.io.Serializable;
 
 
 import java.io.Serializable;
-import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.ApplicationScoped;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ManagedProperty;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
-import org.primefaces.event.CellEditEvent;
-import org.primefaces.event.RowEditEvent;
-import org.primefaces.event.SelectEvent;
-import org.primefaces.event.UnselectEvent;
 import javax.faces.bean.ManagedBean;
 import org.primefaces.model.chart.LineChartModel;
 import org.primefaces.model.chart.BarChartModel;
@@ -46,7 +27,6 @@ import org.primefaces.model.chart.LinearAxis;
 import org.primefaces.model.chart.OhlcChartSeries;
 import org.primefaces.model.chart.BubbleChartSeries;
 import org.primefaces.event.ItemSelectEvent;
-import java.util.LinkedHashMap;
 import org.primefaces.model.chart.DateAxis;
 
 

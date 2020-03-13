@@ -11,9 +11,6 @@ package cl.beans;
 import cl.mybatis.myBatisUtil;
 import cl.mybatis.pojos.Estudiante;
 import cl.mybatis.pojos.EstudianteIndicador;
-import java.util.List;
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
 import org.apache.ibatis.session.SqlSession;
 
 
@@ -25,10 +22,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.ApplicationScoped;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ManagedProperty;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 import org.primefaces.event.CellEditEvent;

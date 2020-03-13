@@ -7,9 +7,6 @@ package cl.beans;
 
 import cl.mybatis.myBatisUtil;
 import cl.mybatis.pojos.Curso;
-import java.util.List;
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
 import org.apache.ibatis.session.SqlSession;
 
 
@@ -20,23 +17,10 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
-import javax.faces.application.FacesMessage;
-import javax.faces.bean.ApplicationScoped;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ManagedProperty;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
-import javax.faces.context.FacesContext;
-import org.primefaces.event.CellEditEvent;
-import org.primefaces.event.RowEditEvent;
-import org.primefaces.event.SelectEvent;
-import org.primefaces.event.UnselectEvent;
 import javax.faces.bean.ManagedBean;
 import modelo.ModParametroGeneral;
 import modelo.ModUniversidad;
-import org.primefaces.model.UploadedFile;
-
-import org.primefaces.event.FileUploadEvent;
 import org.primefaces.model.UploadedFile;
  
 

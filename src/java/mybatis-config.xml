@@ -10,8 +10,8 @@
       <dataSource type="POOLED">
         <property name="driver" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/isahc?useSSL=false"/>  
-        <property name="username" value="root"/>
-        <property name="password" value="password"/>
+        <property name="username" value="investigacionunad"/>
+        <property name="password" value="Utadeo*2020"/>
       </dataSource>
     </environment>
   </environments>

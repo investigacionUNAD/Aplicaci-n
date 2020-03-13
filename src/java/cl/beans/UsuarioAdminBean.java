@@ -6,7 +6,6 @@
 package cl.beans;
 
 import cl.mybatis.myBatisUtil;
-import cl.mybatis.pojos.EstudianteIndicador;
 import cl.mybatis.pojos.Usuario;
 import java.io.Serializable;
 import java.util.HashMap;
@@ -15,14 +14,8 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
-import javax.faces.context.FacesContext;
-import javax.faces.render.FacesRenderer;
 import modelo.ModParametroGeneral;
 import modelo.ModPerfil;
 import org.apache.ibatis.session.SqlSession;

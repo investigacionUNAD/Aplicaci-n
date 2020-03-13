@@ -5,10 +5,8 @@
  */
 package cl.mybatis.pojos;
 
-import javax.enterprise.context.RequestScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
-import javax.inject.Named;
 
 /**
  *
